@@ -18,7 +18,7 @@ http://localhost:8080/
 gcloud app deploy app.yaml index.yaml
 ```
 
-**Deplay with optional flags**
+**Deploy with optional flags**
 ```
 --project [YOUR_PROJECT_ID]
 ```
