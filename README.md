@@ -4,11 +4,38 @@ see Wiki
 
 ### Git
 ---
-Clone from git
+Clone from GitHub
 ```
-git clone <https://github.com/GoogleCloudPlatform/appengine-guestbook-python.git>
+git clone [https://xxx.git]
 ```
-
 
 ### Google App Engine
 ---
+Build and run
+```
+dev_appserver.py ./
+```
+```
+http://localhost:8080/
+```
+
+Deploy
+```
+gcloud app deploy app.yaml index.yaml
+```
+
+Deplay with optional flags
+```
+--project [YOUR_PROJECT_ID]
+```
+```
+-v [YOUR_VERSION_ID]
+```
+
+View deplayed application
+```
+http://[YOUR_PROJECT_ID].appspot.com
+```
+```
+gcloud app browse
+```
