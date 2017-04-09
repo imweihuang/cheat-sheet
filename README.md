@@ -9,9 +9,10 @@ Clone from GitHub
 git clone [https://xxx.git]
 ```
 
+
 ### Google App Engine
 ---
-Build and run
+* Build and run
 ```
 dev_appserver.py ./
 ```
@@ -19,12 +20,12 @@ dev_appserver.py ./
 http://localhost:8080/
 ```
 
-Deploy
+* Deploy
 ```
 gcloud app deploy app.yaml index.yaml
 ```
 
-Deplay with optional flags
+* Deplay with optional flags
 ```
 --project [YOUR_PROJECT_ID]
 ```
@@ -32,7 +33,7 @@ Deplay with optional flags
 -v [YOUR_VERSION_ID]
 ```
 
-View deplayed application
+* View deplayed application
 ```
 http://[YOUR_PROJECT_ID].appspot.com
 ```
