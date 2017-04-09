@@ -4,11 +4,10 @@ see Wiki
 
 ### Git
 ---
-Clone from GitHub
+* Clone from GitHub
 ```
 git clone [https://xxx.git]
 ```
-
 
 ### Google App Engine
 ---
