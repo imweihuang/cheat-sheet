@@ -1,7 +1,3 @@
-## Cheat Sheet
-see Wiki
-
-
 ### Git
 ---
 * Clone from GitHub
