@@ -1,12 +1,10 @@
-### Git
----
+## Git
 * Clone from GitHub
 ```
 git clone [https://xxx.git]
 ```
 
-### Google App Engine
----
+## Google App Engine
 * Build and run
 ```
 dev_appserver.py ./
