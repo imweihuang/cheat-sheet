@@ -26,7 +26,7 @@ gcloud app deploy app.yaml index.yaml
 -v [YOUR_VERSION_ID]
 ```
 
-#####View deployed application
+**View deployed application**
 ```
 http://[YOUR_PROJECT_ID].appspot.com
 ```
