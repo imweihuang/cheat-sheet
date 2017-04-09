@@ -33,3 +33,15 @@ http://[YOUR_PROJECT_ID].appspot.com
 ```
 gcloud app browse
 ```
+
+## Curl
+**Test Application**
+```
+curl -X GET http://localhost:8080/
+```
+```
+curl -X GET http://localhost:8080/user/default/json/
+```
+```
+curl -X POST -H "Content-Type: multipart/form-data" -F caption='curl' -F "image=@kitten.jpg" http://localhost:8080/post/lolakitty/
+```
