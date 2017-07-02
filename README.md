@@ -29,6 +29,18 @@ $ git add -p samplefile.swift
 $ git commit -m"sample comment"
 ```
 
+**Find Remote Origin**
+```
+$ git config --get remote.origin.url
+```
+
+**Change Remote Origin**
+```
+$ git remote -v
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
+
+
 **Clone from GitHub**
 ```
 $ git clone [https://xxx.git]
