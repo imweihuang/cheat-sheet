@@ -23,9 +23,20 @@ bob $ git push
 bob $ git merge afork
 ```
 
+**Partial Update**
+```
+$ git add -p samplefile.swift
+$ git commit -m"sample comment"
+```
+
 **Clone from GitHub**
 ```
 $ git clone [https://xxx.git]
+```
+
+**History Graph**
+```
+$ git log --graph --decorate --abbrev-commit --all -pretty=oneline
 ```
 
 ## Google App Engine
