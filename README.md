@@ -3,7 +3,7 @@
 ```
 $ git init myproject
 $ cd myproject
-$ git add.
+$ git add .
 $ git commit -m"importing all codes"
 ```
 
