@@ -1,7 +1,31 @@
 ## Git
+**Create a Project**
+```
+$ git init myproject
+$ cd myproject
+$ git add.
+$ git commit -m"importing all codes"
+```
+
+**Work on Same Project**
+```
+alice $ git checkout master
+alice $ git commit -a -m"alice's update"
+alice $ git push
+```
+```
+bob $ git checkout -b afork
+bob $ git commit -a -m"bob's update"
+bob $ git push origin afork
+```
+```
+bob $ git push
+bob $ git merge afork
+```
+
 **Clone from GitHub**
 ```
-git clone [https://xxx.git]
+$ git clone [https://xxx.git]
 ```
 
 ## Google App Engine
